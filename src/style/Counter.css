@@ -1,0 +1,22 @@
+
+
+.Counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.fas-fa-plus  {
+    cursor: pointer;
+    margin: 10px;
+    color: rgb(73, 73, 73);
+}
+  
+.fas-fa-minus{
+    opacity: 0;
+    pointer-events: none;
+}
+  
+.Counter > i:hover {
+    color: rgb(0, 0, 0);
+}
